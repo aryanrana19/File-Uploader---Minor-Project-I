@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Feedback Analysis</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <form class="form" id="uploadForm" action="/upload" method="POST" enctype="multipart/form-data">
+        <div class="img-container">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU_P4dmMpB8PJKyVCL6a16Ue9qp6k3sgpqWQ&s"
+            alt="UPES Logo">
+        </div>
+        <h1>Feedback Analyser</h1>
+        <p>Upload your CSV file to be analysed</p>
+        <div class="form-control">
+            <input type="file" name="file" required>
+            <button type="submit">Upload</button>
+        </div>
+    </form>
+
+
+</body>
+
+</html>

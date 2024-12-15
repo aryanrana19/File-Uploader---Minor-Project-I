@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #826afb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.form{
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    /* margin: 50px; */
+    max-width: 80%;
+    margin: 25px ;
+}
+
+.img-container{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.form img{
+    width: 50%;
+}
+
+.form h1{
+    text-align: center;
+    font-size: 1.75rem;
+    padding: 0;
+    margin: 0;
+    /* font-weight: 500; */
+}
+
+.form p{
+    margin: 5px 0;
+    text-align: center;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    /* font-weight: bold; */
+    /* color: #826afb; */
+}
+
+.form p span{
+    color: #826afb;
+    font-weight: bold;
+}
+
+.form-control{
+    width: 100%;
+    height: 5vh;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-control input{
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button{
+    background-color: #826afb;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #6e51fd;
+}
+
+
+/* MOBILE SCREENS */
+@media (max-width: 767px) {
+    .form{
+        margin: 25px;
+        min-width: 80%;
+    }
+}
+
+/* TABLET SCREENS */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .form{
+        margin: 25px;
+    }
+}
+
+@media(max-width: 425px){
+    .options-list{
+        flex-flow: column;
+        
+    }
+    .options{
+        margin: 0;
+        padding: 10px 0;
+    }
+}
